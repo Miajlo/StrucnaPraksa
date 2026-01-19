@@ -1,0 +1,161 @@
+# ============================================
+# PYTHON
+# ============================================
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Sphinx documentation
+docs/_build/
+docs/build/
+docs/source/_autosummary/
+
+# ============================================
+# C# / .NET
+# ============================================
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ============================================
+# ARDUINO
+# ============================================
+# Compiled files
+*.hex
+*.eep
+*.elf
+*.bin
+*.o
+*.a
+*.d
+*.lst
+*.map
+*.sym
+
+# Arduino build directory
+build/
+*.build/
+
+# ============================================
+# DATABASES
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ============================================
+# IDEs & EDITORS
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Visual Studio Code
+.vscode-server/
+
+# JetBrains (PyCharm, Rider, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ============================================
+# ENVIRONMENT & SECRETS
+# ============================================
+.env
+.env.local
+.env.*.local
+secrets.json
+appsettings.Development.json
+
+# ============================================
+# MISC
+# ============================================
+*.log
+.cache/
+*.tmp
+*.temp
